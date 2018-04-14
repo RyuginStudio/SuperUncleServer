@@ -1,0 +1,6 @@
+G:\WEBSITE\SuperUncleServer\SuperUncleServer\bin\SuperUncleServer.dll.config
+G:\WEBSITE\SuperUncleServer\SuperUncleServer\bin\SuperUncleServer.dll
+G:\WEBSITE\SuperUncleServer\SuperUncleServer\bin\SuperUncleServer.pdb
+G:\WEBSITE\SuperUncleServer\SuperUncleServer\obj\Debug\SuperUncleServer.csprojResolveAssemblyReference.cache
+G:\WEBSITE\SuperUncleServer\SuperUncleServer\obj\Debug\SuperUncleServer.dll
+G:\WEBSITE\SuperUncleServer\SuperUncleServer\obj\Debug\SuperUncleServer.pdb
