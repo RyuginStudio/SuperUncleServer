@@ -16,18 +16,28 @@ namespace SuperUncleServer
     // [System.Web.Script.Services.ScriptService]
     public class RankListService : System.Web.Services.WebService
     {
-        private static string rankList;
-
         [WebMethod]
-        public void updateList(string uploadData)
+        public void upLoadData(string MapName, string UserName, int CostTime, int Score)
         {
-            rankList += uploadData;
+            //操作数据库
+            DB_Controler.connectDB();
+
+            //查询mapName的排行榜是否存在
+            if (DB_Controler.CheckExistsTable(MapName))
+            {
+                DB_Controler.insertTableData(MapName, UserName, CostTime, Score);
+            }
+            else
+            {
+                DB_Controler.createTable(MapName);
+                DB_Controler.insertTableData(MapName, UserName, CostTime, Score);
+            }
         }
 
         [WebMethod]
         public string getRankList()
         {
-            return rankList;
+            return null;
         }
     }
 }
