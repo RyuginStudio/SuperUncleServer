@@ -96,7 +96,7 @@ namespace SuperUncleServer
             {
                 if (reader.HasRows)
                 {
-                    RL_Data tempData = new RL_Data(reader.GetString(1), reader.GetInt32(2), reader.GetInt32(3));
+                    RL_Data tempData = new RL_Data(reader.GetString(0), reader.GetInt32(1), reader.GetInt32(2));
                     list.Add(tempData);
                 }
             }
