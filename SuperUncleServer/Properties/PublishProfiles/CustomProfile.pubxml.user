@@ -9,11 +9,14 @@
     <_PublishTargetUrl>G:\WEBSITE\SuperUncleServer\Release</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>05/22/2013 17:21:19</publishTime>
+    </File>
     <File Include="bin/SuperUncleServer.dll">
-      <publishTime>04/14/2018 23:40:52</publishTime>
+      <publishTime>04/16/2018 23:17:43</publishTime>
     </File>
     <File Include="bin/SuperUncleServer.pdb">
-      <publishTime>04/14/2018 23:40:52</publishTime>
+      <publishTime>04/16/2018 23:17:43</publishTime>
     </File>
     <File Include="hello.aspx">
       <publishTime>04/12/2018 12:45:10</publishTime>

@@ -35,9 +35,10 @@ namespace SuperUncleServer
         }
 
         [WebMethod]
-        public string getRankList()
+        public List<RL_Data> getRankList(string MapName)
         {
-            return null;
+            return DB_Controler.searchTableData(MapName);
         }
     }
+
 }
